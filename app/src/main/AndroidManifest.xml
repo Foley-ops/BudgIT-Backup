@@ -13,19 +13,16 @@
         android:theme="@style/Theme.BackupBudgit"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="LoginActivity"
+            android:theme="@style/Theme.BackupBudgit">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false"
-            android:label="LoginActivity"
-            android:theme="@style/Theme.BackupBudgit">
 
         </activity>
         <activity
@@ -35,8 +32,13 @@
             android:theme="@style/Theme.BackupBudgit">
 
         </activity>
+        <activity
+            android:name=".ProfileLanding"
+            android:exported="false"
+            android:label="ProfileLanding"
+            android:theme="@style/Theme.BackupBudgit">
 
-
+        </activity>
     </application>
 
 </manifest>
